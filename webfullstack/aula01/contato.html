@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        
+        <form action="">
+
+            <h1>Formulário de Contato</h1>
+
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            <input type="text" name="sobre-nome" id="sobre-nome" placeholder="Sobrenome" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label>Assunto</label>
+            <select name="assunto" id="assunto">
+                <option value="1">Elogio</option>
+                <option value="2" selected>Sugestão</option>
+                <option value="3">Reclamação</option>
+            </select>
+
+            <div id="opcoes">
+                <span>Gênero:</span>
+                <input type="radio" name="masc" value="0">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="fem" value="1" id="Feminino">
+                <label for="fem">Feminino</label>
+
+                <span>Passatempo:</span>
+
+                <input type="checkbox" name="hobbies" value="Video_Game">
+                <label for="h-jogar">Vídeo Game</label>
+
+                <input type="checkbox" name="hobbies" 
+                id="h-ler" value="hobbies">
+                <label for="h-ler">Ler</label>
+                
+                <input type="checkbox" name="hobbies" 
+                id="h-musica"
+                value="ouvir_musica">
+                <label for="h-musica">Ouvir Música</label>
+                
+                <input type="checkbox" name="hobbies" 
+                id="h-esporte"
+                value="praticar_esporte">
+                <label for="h-esporte">Praticar esporte</label>
+                
+                <input type="checkbox" name="hobbies" 
+                id="h-shopping"
+                value="ir_shopping">
+                <label for="h-shopping">Ir ao Shopping</label>
+            </div>
+            
+            <span>Comentários</span>
+            <textarea name="msg_coment" id="msg_coment" rows="10"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
