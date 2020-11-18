@@ -1,6 +1,26 @@
 body {
     background-color: #cccccc;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
     font-family     : sans-serif;
+    padding         : 0 auto;
+}
+
+a {
+    color          : cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(84, 139, 141);
+}
+
+a:focus {
+    color: bisque;
+}
+
+a:active {
+    color: #fff;
 }
 
 strong,
@@ -9,48 +29,68 @@ mark {
     font-weight: 600;
 }
 
-h1 {
+header {
     text-align: center;
 }
 
+ol {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+section {
+    width  : 960px;
+    padding: 30px;
+    border : 5px dashed #ffffff;
+}
+
 .perfil {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #eeeeee;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .dados-pessoais {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #dddddd;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .certificacao {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #c0c0c0;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .curso-extensao {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #afafaf;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .tecnologias {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #929292;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .experiencias {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #8d8d8d;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .habilidades {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #7e7e7e;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 .idioma {
-    background-color: #cccccc;
-    border          : 2px solid #202020;
+    background-color: #6b6b6b;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
 }
 
 div#opcoes label {
