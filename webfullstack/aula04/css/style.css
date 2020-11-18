@@ -1,0 +1,22 @@
+.quadrado {
+    background-color: green;
+    width           : 250px;
+    height          : 130px;
+    text-align      : justify;
+
+    /* border-width: 2px;
+    border-color: #ff0000;
+    border-style: solid; */
+
+    border: 2px solid #ff0000;
+
+    padding             : 20px 40px 20px 40px;
+    /* padding          : 20px; */
+    /* padding-top      : 20px;
+    padding-right       : 20px;
+    padding-bottom      : 20px;
+    padding-left        : 20px; */
+
+    margin-top : 40px;
+    margin-left: 40px;
+}

@@ -6,7 +6,8 @@
     <title>Formulário de Contato</title>
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+
 </head>
 <body>
 
@@ -28,11 +29,14 @@
 
             <div id="opcoes">
                 <span>Gênero:</span>
-                <input type="radio" name="masc" value="0">
+                <input type="radio" name="genero" id="masc" value="0">
                 <label for="masc">Masculino</label>
 
-                <input type="radio" name="fem" value="1" id="Feminino">
+                <input type="radio" name="genero" value="1" id="fem">
                 <label for="fem">Feminino</label>
+
+                <input type="radio" name="genero" value="2" id="pnr">
+                <label for="pnr">Prefiro não responder</label>
 
                 <span>Passatempo:</span>
 
@@ -62,7 +66,10 @@
             <span>Comentários</span>
             <textarea name="msg_coment" id="msg_coment" rows="10"></textarea>
 
-            <button type="submit">Enviar</button>
+            <div class="btns-form">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
 
         </form>
 
