@@ -1,0 +1,85 @@
+body {
+    background-color: #1a7e97;
+    margin          : 0;
+    padding         : 5px;
+    box-sizing      : border-box;
+}
+
+div {
+    width   : 650px;
+    height  : auto;
+    display : block;
+    position: absolute;
+    padding : 3px;
+}
+
+header {
+    background-color: white;
+    margin          : 7px 13px;
+    padding-top     : 3%;
+    text-align      : center;
+    width           : 630px;
+    height          : 100px;
+}
+
+h1 {
+    color      : #0876f5;
+    text-shadow: 0px 0px 3px #fac044, 0px 0px 3px #fac044, 0px 0px 3px #fac044, 0px 0px 3px #fac044;
+}
+
+h3 {
+    color : #0876f5;
+    margin: 5px 0;
+}
+
+h4 {
+    color: #0876f5;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style     : none;
+    text-decoration: none;
+    margin         : 0;
+    padding        : 5px 0;
+}
+
+aside {
+    background-color: white;
+    display         : inline-block;
+    width           : 50px;
+    width           : 200px;
+    height          : 400px;
+    padding         : 35px 0;
+    margin          : 0 0px 0 10px;
+    text-align      : center;
+}
+
+section {
+    background-color: white;
+    width           : 420px;
+    padding         : 35px 0;
+    margin          : 0 10px;
+    text-align      : center;
+    height          : 400px;
+    float           : right;
+}
+
+img {
+    width : auto;
+    height: 115px;
+}
+
+footer {
+    color           : #0876f5;
+    background-color: white;
+    margin          : 10px;
+    width           : 630px;
+    padding         : 10px 0;
+    bottom          : 0;
+    float           : right;
+    text-align      : center;
+}
