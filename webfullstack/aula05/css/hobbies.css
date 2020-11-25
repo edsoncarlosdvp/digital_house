@@ -1,0 +1,112 @@
+body {
+    /* background-color: rgb(26, 126, 151); */
+    background: url('../imagens/moroccan-flower.png') fixed;
+    margin          : 0;
+    padding         : 5px;
+    box-sizing      : border-box;
+}
+
+div {
+    width   : 650px;
+    height  : auto;
+    display : block;
+    position: absolute;
+    padding : 3px;
+}
+
+header {
+    background-color: white;
+    margin          : 10px;
+    text-align      : center;
+    width           : 700px;
+    height          : 50px;
+}
+
+h1 {
+    color      : #0876f5;
+    text-shadow: 0px 0px 3px #fac044, 0px 0px 3px #fac044, 0px 0px 3px #fac044, 0px 0px 3px #fac044;
+}
+
+h3 {
+    color : #0876f5;
+    margin: 5px 0;
+}
+
+h4 {
+    color: #0876f5;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style     : none;
+    text-decoration: none;
+    margin         : 0;
+    padding        : 5px 0;
+}
+
+aside {
+    background-color: white;
+    display         : inline-block;
+    width           : 50px;
+    width           : 200px;
+    height          : 400px;
+    padding         : 35px 0;
+    margin          : 0 0px 0 10px;
+    text-align      : center;
+}
+
+section {
+    background-color: white;
+    width           : 700px;
+    padding         : 10px 0;
+    margin          : 0 10px;
+    text-align      : center;
+    height          : auto;
+    /* float           : right; */
+}
+
+.destaque{
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+img {
+    width : auto;
+    height: 115px;
+    margin: 15px auto;
+}
+
+.adj-img{
+    width: auto;
+    height: 80px;
+}
+
+div#back{
+    position: absolute;
+    left: 22px;
+    top: 25px;
+    text-align: center;
+    width: 50px;
+    height: auto;
+}
+
+div#back a{
+    display: block;
+    margin-top: 15px;
+    color: #0876f5;
+}
+
+footer {
+    color           : #0876f5;
+    background-color: white;
+    margin          : 10px;
+    width           : 700px;
+    padding         : 10px 0;
+    bottom          : 0;
+    /* float           : right; */
+    text-align      : center;
+}

@@ -73,6 +73,21 @@ img {
     height: 115px;
 }
 
+div#back{
+    position: fixed;
+    left: 22px;
+    top: 25px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+div#back a{
+    display: block;
+    margin-top: 15px;
+    color: #0876f5;
+}
+
 footer {
     color           : #0876f5;
     background-color: white;

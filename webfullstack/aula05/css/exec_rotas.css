@@ -1,0 +1,150 @@
+body {
+    background-color: #cccccc;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+    font-family     : sans-serif;
+    padding         : 0 auto;
+}
+
+a {
+    color          : cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(84, 139, 141);
+}
+
+a:focus {
+    color: bisque;
+}
+
+a:active {
+    color: #fff;
+}
+
+strong,
+em,
+mark {
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+}
+
+ol {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+section {
+    width  : 960px;
+    padding: 30px;
+    border : 5px dashed #ffffff;
+}
+
+.perfil {
+    background-color: #eeeeee;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.dados-pessoais {
+    background-color: #dddddd;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.formacao {
+    background-color: #c5c5c5;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.certificacao {
+    background-color: #c0c0c0;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.curso-extensao {
+    background-color: #afafaf;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.tecnologias {
+    background-color: #929292;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.experiencias {
+    background-color: #8d8d8d;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.habilidades {
+    background-color: #7e7e7e;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+.idioma {
+    background-color: #6b6b6b;
+    text-shadow     : 0px 0px 1px #fff;
+    font-weight     : 500;
+}
+
+div#opcoes label {
+    margin: 5px 10px 10px 0px;
+}
+
+div#see{
+    position: fixed;
+    left: 15px;
+    bottom: 25px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #6b6b6b;
+}
+
+div#see a{
+    display: block;
+    margin-top: 15px;
+    color: white;
+}
+
+div#linkTop{
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #6b6b6b;
+}
+
+div#linkTop a{
+    display: block;
+    margin-top: 15px;
+    color: white;
+}
+
+footer{
+    color: #fff;
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    margin: auto 12px;
+}
