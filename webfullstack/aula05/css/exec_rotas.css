@@ -1,5 +1,5 @@
 body {
-    background-color: #cccccc;
+    background-color: rgba(204, 204, 204, .8);
     text-shadow     : 0px 0px 1px #fff;
     font-weight     : 500;
     font-family     : sans-serif;
@@ -147,4 +147,26 @@ footer{
 
 footer a{
     margin: auto 12px;
+}
+
+footer img{
+    width: 25px;
+}
+
+footer img:hover{
+    filter: opacity(.7);
+    transition: all .3s ease-in .3s !important;
+    -webkit-transition: all .3s ease-in .3s !important;
+    -moz-transition: all .3s ease-in .3s !important;
+    -ms-transition: all .3s ease-in .3s !important;
+    -o-transition: all .3s ease-in .3s !important;
+    -webkit-filter: opacity(.7);
+}
+
+.footer-img-radius{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
