@@ -10,3 +10,7 @@ a{
     text-decoration: none;
     color: salmon;
 }
+
+a:hover{
+    background-color: #dad0d0;
+}

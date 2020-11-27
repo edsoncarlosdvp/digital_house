@@ -11,6 +11,10 @@ a{
     color: #fff;
 }
 
+header{
+    width: 999px;
+}
+
 .logo{
     width: 70px;
     border: 2px solid sandybrown;
@@ -40,6 +44,8 @@ div#container-produtos{
     background-color: #fff;
     padding: 20px;
     height: auto;
+    position: absolute;
+    width: 960px;
 }
 
 .div-produtos{
@@ -48,17 +54,21 @@ div#container-produtos{
 }
 
 figure{
-    width: 185px;
+    width: 300px;
+    margin: 10px;
     float: left;
 }
 
 figcaption{
     position: absolute;
-    top: 30%;
+    top: 40%;
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     padding: 6px;
-    font-weight: 400;
+    font-weight: 400;    
+    width: inherit;
+    max-width: 283px;
+    text-align: center;
 }
 
 .btn-ver-mais{
@@ -69,7 +79,7 @@ figcaption{
     padding: 10px;
     width: 85px;
     display: block;
-    margin: 19% 25%;
+    margin: 65px 102px;
     border: none;
     border-radius: 0px;
     -webkit-border-radius: 0px;
