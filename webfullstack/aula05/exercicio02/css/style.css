@@ -1,48 +1,77 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 0 12%;
     box-sizing: border-box;
-    background: url('../imagens/moroccan-flower.png') fixed no-repeat;
+    background: url('../imagens/background.jpg') fixed no-repeat;
     background-size: 100%;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #f05331;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ee907b;
+    transition: all .2s ease-in .2s;
+    -webkit-transition: all .2s ease-in .2s;
+    -moz-transition: all .2s ease-in .2s;
+    -ms-transition: all .2s ease-in .2s;
+    -o-transition: all .2s ease-in .2s;
 }
 
 header{
-    width: 999px;
+    display: flex;
+    position: fixed;
+    top: 1px;
+    z-index: 999;
+}
+
+nav{
+    display: inline-block;
+}
+
+div#div-logo{
+    z-index: 99;
 }
 
 .logo{
-    width: 70px;
-    border: 2px solid sandybrown;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    width: 85px;
+    margin-right: -10px;
 }
 
 ul{
-    display: flex;
+    display: inline-block;
+    float: none;
+    padding: 15px 0;
+    width: 925px;
     list-style: none;
-    align-items: center;
-    background-color: sandybrown;
+    border: 2px solid #f05331;
+    border-left: none;
+    background-color: #ffffff;
+    z-index: 9;
 }
 
 li{
     margin: auto 15px;
+    display: block;
+    float: left;
 }
 
 div#container{
-    padding: auto 15px;
+    display: inline-block;
+    width: 960px;
+    background-color: #fff;
+    position: relative;
+    top: 120px;
+    left: 10px;
+    padding: 0px 10px;
 }
 
 div#container-produtos{
-    background-color: #fff;
-    padding: 20px;
+    /* background-color: #fff; */
+    padding: 0px 20px;
     height: auto;
     position: absolute;
     width: 960px;
@@ -59,9 +88,21 @@ figure{
     float: left;
 }
 
+figure img{
+    margin-top: -27px;
+}
+
+.img-discount{
+    position: relative;
+    float: right;
+    width: 50px;
+    top: 35px;
+    right: 5px;
+}
+
 figcaption{
-    position: absolute;
-    top: 40%;
+    position: relative;
+    top: 140px;
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     padding: 6px;
@@ -71,19 +112,34 @@ figcaption{
     text-align: center;
 }
 
+span{
+    display: block;
+    margin: auto 50px;
+}
+
 .btn-ver-mais{
     position: absolute;
     top: 30%;
     color: #ffffff;
-    background-color: sandybrown;
+    background-color: #df7057;
     padding: 10px;
     width: 85px;
     display: block;
     margin: 65px 102px;
     border: none;
+    cursor: pointer;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
+}
+
+.btn-ver-mais:hover{
+    background-color: #ee907b;
+    transition: all .2s ease-in .2s;
+    -webkit-transition: all .2s ease-in .2s;
+    -moz-transition: all .2s ease-in .2s;
+    -ms-transition: all .2s ease-in .2s;
+    -o-transition: all .2s ease-in .2s;
 }
