@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('../imagens/moroccan-flower.png') fixed no-repeat;
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo{
+    width: 70px;
+    border: 2px solid sandybrown;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: sandybrown;
+}
+
+li{
+    margin: auto 15px;
+}
+
+div#container{
+    padding: auto 15px;
+}
+
+div#container-produtos{
+    background-color: #fff;
+    padding: 20px;
+    height: auto;
+}
+
+.div-produtos{
+    display: block;
+    height: auto;
+}
+
+figure{
+    width: 185px;
+    float: left;
+}
+
+figcaption{
+    position: absolute;
+    top: 30%;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 6px;
+    font-weight: 400;
+}
+
+.btn-ver-mais{
+    position: absolute;
+    top: 30%;
+    color: #ffffff;
+    background-color: sandybrown;
+    padding: 10px;
+    width: 85px;
+    display: block;
+    margin: 19% 25%;
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
