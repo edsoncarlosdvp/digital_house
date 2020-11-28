@@ -1,0 +1,26 @@
+.elemento-article{
+    background-color: green;
+    overflow: hidden;
+    height: 100px;
+}
+
+.elemento{
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.div1{
+    background-color: blue;
+    float: left;
+}
+
+.div2{
+    background-color: red;
+    float: right;
+}
+
+.paragrafo{
+    clear: left;
+}

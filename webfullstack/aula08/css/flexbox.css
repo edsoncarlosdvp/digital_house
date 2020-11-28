@@ -1,0 +1,21 @@
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 2em;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.item1{
+    align-self: flex-end;
+}
