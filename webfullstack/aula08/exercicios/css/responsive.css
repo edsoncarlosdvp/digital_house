@@ -1,0 +1,122 @@
+body {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : center;
+    height         : 700px;
+    box-sizing     : border-box;
+}
+
+header {
+    width           : 78vw;
+    height          : 20%;
+    background-color: darkorange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width  : 1200px;
+    height : auto;
+    padding: 10px;
+    display: inline-block;
+    border : 2px solid gray;
+}
+
+.caixa-a,
+.caixa-b,
+.caixa-c {
+    float : left;
+    border: 2px solid gray;
+}
+
+.caixa-a {
+    width           : 20%;
+    height          : 450px;
+    background-color: aqua;
+    border          : 2px solid slategray;
+}
+
+.caixa-a h2 {
+    font-size: 1.75em;
+}
+
+.caixa-a p {
+    font-size: 0.81em;
+}
+
+.caixa-a strong {
+    font-size: 0.93em;
+}
+
+.caixa-b {
+    width           : 66%;
+    height          : 450px;
+    margin          : auto 2%;
+    background-color: rosybrown;
+    border          : 2px solid slategray;
+}
+
+.caixa-c {
+    width           : 8%;
+    height          : 450px;
+    background-color: sienna;
+    border          : 2px solid slategray;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width  : 900px;
+        height : auto;
+        padding: 10px;
+    }
+
+    .caixa-a {
+        width : 40%;
+        height: 450px;
+        float : left !important;
+    }
+
+    .caixa-a h2 {
+        font-size: 1.75em;
+    }
+
+    .caixa-a p {
+        font-size: 0.81em;
+    }
+
+    .caixa-a strong {
+        font-size: 0.93em;
+    }
+
+    .caixa-b {
+        width : 55%;
+        height: 450px;
+        margin: auto 0;
+        float : right !important;
+    }
+
+    .caixa-c {
+        display: inline-block;
+        width  : 100%;
+        height : 450px;
+        float  : none !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    .caixa-a,
+    .caixa-b,
+    .caixa-c {
+        display: inline-block;
+        width  : 100%;
+        margin : 0;
+        float  : none;
+    }
+}
