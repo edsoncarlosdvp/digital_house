@@ -1,0 +1,19 @@
+.border-black {
+    border: 2px solid black;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+
+.border-orange {
+    border: 2px solid orange;
+}
+
+.border-brow {
+    border: 2px solid rgb(90, 54, 8);
+}
+
+.border-blue {
+    border: 2px solid blue;
+}
