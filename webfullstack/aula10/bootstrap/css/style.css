@@ -80,6 +80,18 @@ footer{
     border-top-right-radius: 30px;
 }
 
+@media(max-width: 1200px){
+    .txt-caption{
+        margin-top: 40%;
+    }
+}
+
+@media(max-width: 992px){
+    .txt-caption{
+        margin-top: 50%;
+    }
+}
+
 @media(max-width: 768px){
     .txt-caption{
         margin-top: 22%;
