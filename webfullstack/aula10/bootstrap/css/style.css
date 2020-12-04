@@ -1,0 +1,49 @@
+body{
+    background: url('../imagens/back-body.png') repeat;
+}
+
+.logo{
+    width: 85px;
+    margin-right: -10px;
+}
+
+.nav-link{
+    color: #ffffff;
+    padding: 0rem 1rem;
+}
+
+.nav-link:hover{
+    color: #dadada;
+}
+
+.img-banner{
+    width: 100%;
+    height: 340px;
+}
+
+.txt-caption{
+    display: block;
+    text-align: center;
+    margin-top: 37%;
+    background-color: #00000082;
+}
+
+.img-discount{
+    float: right;
+    width: 50px;
+}
+
+.title-product{
+    font-size: 1.55em;
+    font-weight: 600;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    background-color: chocolate;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
