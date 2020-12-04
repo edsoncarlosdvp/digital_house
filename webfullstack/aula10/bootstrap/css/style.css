@@ -1,10 +1,11 @@
 body{
-    background: url('../imagens/back-body.png') repeat;
+    background: url('../imagens/home/back-body.png') repeat;
 }
 
 .logo{
-    width: 85px;
-    margin-right: -10px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
 }
 
 .nav-link{
@@ -21,10 +22,41 @@ body{
     height: 340px;
 }
 
+.thumbnail01, .thumbnail02, .thumbnail03, .thumbnail04, .thumbnail05, .thumbnail06{
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 233px;
+}
+
+.thumbnail01{
+    background: url('../imagens/home/ambiente.jpg') no-repeat;
+}
+
+.thumbnail02{
+    background: url('../imagens/produtos/produto.jpg') no-repeat;
+}
+
+.thumbnail03{
+    background: url('../imagens/home/wifi.png') no-repeat;
+}
+
+.thumbnail04{
+    background: url('../imagens/home/gastro1.jpg') no-repeat;
+}
+
+.thumbnail05{
+    background: url('../imagens/home/vegano.jpg') no-repeat;
+}
+
+.thumbnail06{
+    background: url('../imagens/home/vinho.jpg') no-repeat;
+}
+
 .txt-caption{
     display: block;
     text-align: center;
-    margin-top: 37%;
+    margin-top: 50%;
     background-color: #00000082;
 }
 
@@ -43,7 +75,19 @@ p{
 }
 
 footer{
-    background-color: chocolate;
+    background-color: #b92517;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+@media(max-width: 768px){
+    .txt-caption{
+        margin-top: 22%;
+    }
+}
+
+@media(max-width: 578px){
+    .txt-caption{
+        margin-top: 25%;
+    }
 }
