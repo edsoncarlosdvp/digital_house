@@ -17,9 +17,17 @@ body{
     color: #dadada;
 }
 
+.bg-menu{
+    background-color: transparent;
+}
+
+button{
+    color: #ffffff !important;
+}
+
 .img-banner{
     width: 100%;
-    height: 340px;
+    height: auto;
 }
 
 .thumbnail01, .thumbnail02, .thumbnail03, .thumbnail04, .thumbnail05, .thumbnail06{
@@ -94,6 +102,15 @@ footer{
 }
 
 @media(max-width: 768px){
+    .bg-menu{
+        background-color: #343a40;
+    }
+
+    .img-banner{
+        height: 280px;
+        object-fit: cover;
+    }
+    
     .txt-caption{
         margin-top: 22%;
     }
