@@ -7,6 +7,7 @@
 
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/ticToe.css">
+    <link rel="stylesheet" href="./css/ticTacToe.css">
 
 </head>
 <body>
@@ -19,7 +20,7 @@
     <div class="tabuleiro">
 
         
-        <div id="1" class="item">
+        <!-- <div id="1" class="item">
             <h3>1</h3>
         </div>
         <div id="2" class="item">
@@ -45,9 +46,15 @@
         </div>
         <div id="9" class="item">
             <h3>0</h3>
-        </div>
+        </div> -->
+
+        <div class="game"></div>
     </div>
 
-    <script src=".js/ticTacToe.js"></script>
+    <script src="./js/ticTacToe.js"></script>
+    <script>
+        tic_tac_toe.init (document.querySelector('.game'))
+        tic_tac_toe.start()
+    </script>
 </body>
 </html>
