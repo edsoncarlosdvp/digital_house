@@ -47,7 +47,7 @@ const tic_tac_toe = {
         this.game_over = true
         console.log('GAME OVER')
         let result = document.querySelector('#result')
-        result.innerHTML = '<span>GAME OVER</span>'
+        result.innerHTML = 'GAME OVER'
     },
 
     check_winning_sequences: function(simbol){
