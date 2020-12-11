@@ -47,7 +47,9 @@ const tic_tac_toe = {
         this.game_over = true
         console.log('GAME OVER')
         let result = document.querySelector('#result')
+        let btnReset = document.querySelector('.btnReset')
         result.innerHTML = 'GAME OVER'
+        // result.innerHTML = "<button class='btnReset' onclick='tic_tac_toe.start()'>Reset</button>"
     },
 
     check_winning_sequences: function(simbol){

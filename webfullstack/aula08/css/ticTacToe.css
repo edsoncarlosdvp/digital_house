@@ -5,6 +5,8 @@ div#title-game{
 }
 
 #result{
+    display: flex;
+    justify-content: center;
     color: #000000;
     font-size: 2.2em;
 }
@@ -50,6 +52,20 @@ div#title-game{
     -o-border-radius: 0px;
 }
 
-.winnerColor{
-    color: #7fff00;
+.btnReset{
+    display: block;
+    color: #ffffff;
+    background-color: #9e4444;
+    padding: 5px 15px;
+    font-size: .35em;
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.d-none{
+    display: none;
 }
