@@ -8,6 +8,14 @@ function somar() {
 
 somar(10, 40)
 
-function boasVindas(nome) {
+function boasVindas() {
     alert("Seja bem-vindo, você pressionou  o botão cinza!")
+}
+
+function boasVindasLog() {
+    alert("Seja bem-vindo, você pressionou  o botão cinza!")
+}
+
+function verificaMudançadeTexto() {
+    alert("Seja bem-vindo, houve uma mudança!")
 }
