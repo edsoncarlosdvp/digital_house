@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Title</title>
+    <title>Calculadora</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,28 +21,34 @@
         <hr>
         <div class="row">
             <div class="col-md-4">
-                <input id="num1" type="text" class="form-control" placeholder="Digite um número">
+                <input id="num1" type="number" class="form-control" placeholder="Digite um número">
             </div>
             <div class="col-md-4">
                 <select name="" id="operacao" class="form-control">
-                    <option value="1">--Selecione uma operação--</option>
-                    <option value="2">Adição</option>
-                    <option value="3">Subtração</option>
-                    <option value="4">Multiplicação</option>
-                    <option value="5">Divisão</option>
+                    <option value="">--Selecione uma operação--</option>
+                    <option value="adi">Adição</option>
+                    <option value="sub">Subtração</option>
+                    <option value="mult">Multiplicação</option>
+                    <option value="div">Divisão</option>
                 </select>
             </div>
             <div class="col-md-4">
-                <input id="num2" type="text" class="form-control" placeholder="Digite um número">
+                <input id="num2" type="number" class="form-control" placeholder="Digite um número">
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4 text-right">
-                <button type="button" class="btn btn-primary btn-lg">Calcular</button>
+            <div class="col-md-4">
             </div>
+            <div class="col-md-4 text-right">
+                <button type="button" class="btn btn-danger btn-lg mr-0 mr-md-2" onclick="limpar()">Limpar</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="calcular()">Calcular</button>
+            </div>
+        </div>
+        <hr>
+        <div class="bg-light rounded p-4">
+            Resultado: <input id="resultado" type="number" class="form-control" readonly>
         </div>
     </div>
 
@@ -57,6 +63,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
