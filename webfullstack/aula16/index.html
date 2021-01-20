@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Aula 16</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="envio()">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" aria-describedby="nomecompleto" required>
+                <div id="nomeCompleto" class="form-text">Campo obrigatório.</div>
+            </div>
+            <div class="mb-3">
+                <label for="cidade" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="cidade">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

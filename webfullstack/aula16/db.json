@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "",
+      "cidade": ""
+    },
+    {
+      "id": "3",
+      "nome": "Edson Carlos",
+      "cidade": "Nova Iguaçu"
+    },
+    {
+      "id": "4",
+      "nome": "Agatah",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "5",
+      "nome": "Ana",
+      "cidade": "Paraná"
+    },
+    {
+      "id": "6",
+      "nome": "Agatah",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "7",
+      "nome": "Rivaldo",
+      "cidade": "Rondônia"
+    },
+    {
+      "id": "8",
+      "nome": "Carla",
+      "cidade": "Nova Iguaçu"
+    },
+    {
+      "id": "9",
+      "nome": "Ronaldo",
+      "cidade": "Rondônia"
+    },
+    {
+      "id": "10",
+      "nome": "Ronaldo",
+      "cidade": "Rondônia"
+    }
+  ]
+}
