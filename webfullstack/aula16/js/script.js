@@ -6,11 +6,11 @@ function envio() {
         method: "POST",
         url: "http://localhost:3000/usuarios",
         data: {
-            "id": 10,
+            "id": 13,
             "nome": nome,
             "cidade": cidade
         },
-        sucess: function () {
+        success: function () {
             alert("Dados salvos com sucesso!")
         },
         error: function () {
