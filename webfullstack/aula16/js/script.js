@@ -18,3 +18,10 @@ function envio() {
         }
     })
 }
+
+function buscar(id) {
+    $.get("http://localhost:3000/usuarios" + id, function (dados) {
+        $("#nome").val(dados.nome)
+        $("#cidade").val(dados.cidade)
+    })
+}
