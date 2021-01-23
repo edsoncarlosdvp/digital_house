@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PainelAgendaComponent implements OnInit {
 
+  nome = 'Edson'
+
   constructor() { }
 
   ngOnInit(): void {
