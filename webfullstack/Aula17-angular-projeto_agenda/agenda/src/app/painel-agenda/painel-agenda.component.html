@@ -1,5 +1,13 @@
-<h1>
-  Olá! {{nome}}, seja bem-vindo!
-</h1>
-<br>
-<input type="text" [(ngModel)]="nome">
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>Nome</th>
+    <th>Telefone</th>
+  </tr>
+  <tr *ngFor="let a of agenda">
+    <!-- agenda é o meu vetor -->
+    <td>{{a.id}}</td>
+    <td>{{a.nome}}</td>
+    <td>{{a.telefone}}</td>
+  </tr>
+</table>
