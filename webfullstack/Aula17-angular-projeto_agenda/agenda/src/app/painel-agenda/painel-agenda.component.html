@@ -1,13 +1,30 @@
-<table border="1">
+<p-table [value]="agenda">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Código</th>
+      <th>Nome</th>
+      <th>Telefone</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-ag>
+    <tr>
+      <td>{{ag.id}}</td>
+      <td>{{ag.nome}}</td>
+      <td>{{ag.telefone}}</td>
+    </tr>
+  </ng-template>
+</p-table>
+
+<!-- <table border="1">
   <tr>
     <th>ID</th>
     <th>Nome</th>
     <th>Telefone</th>
   </tr>
   <tr *ngFor="let a of agenda">
-    <!-- agenda é o meu vetor -->
+    agenda é o meu vetor
     <td>{{a.id}}</td>
     <td>{{a.nome}}</td>
     <td>{{a.telefone}}</td>
   </tr>
-</table>
+</table> -->

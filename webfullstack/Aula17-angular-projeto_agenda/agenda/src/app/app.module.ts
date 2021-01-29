@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { PainelAgendaComponent } from './painel-agenda/painel-agenda.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import { TableModule } from 'primeng/table'
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { PainelAgendaComponent } from './painel-agenda/painel-agenda.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    TableModule,
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
