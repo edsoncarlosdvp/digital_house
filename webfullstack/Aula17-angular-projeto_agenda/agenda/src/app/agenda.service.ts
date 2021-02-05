@@ -11,6 +11,18 @@ export class AgendaService {
   constructor(private http: HttpClient) { }
 
   listar() {
-    return this.http.get(this.url)
+    return this.http.get(this.url);
+  }
+
+  salvar(contato: any) {
+    return this.http.post(this.url, contato);
+  }
+
+  excluir(id: number) {
+    return this.http.delete(this.url + '/' + id);
+  }
+
+  atualizar(contato: any) {
+    return this.http.put(this.url + '/' + contato.id, contato);
   }
 }

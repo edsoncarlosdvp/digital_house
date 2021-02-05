@@ -1,9 +1,34 @@
-<p-table [value]="agenda">
+<p-panel header="Agenda" [toggleable]="true">
+  <div class="p-grid">
+    <div class="p-col-2">
+      Nome
+    </div>
+    <div class="p-col-10">
+      <input type="text" pInputText [(ngModel)]="contato.nome">
+    </div>
+    <div class="p-col-2">
+      Telefone
+    </div>
+    <div class="p-col-10">
+      <!-- <input type="text" pInputText [(ngModel)]="contato.telefone"> -->
+      <p-inputMask [(ngModel)]="contato.telefone" mask="(99) 99999-9999"></p-inputMask>
+    </div>
+    <div class="p-col-12 p-offset-2">
+      <button type="submit" pButton [label]="operacao == true ? 'Adicionar' : 'Atualizar'"
+        (click)="inserirOuAtualizar()"></button>
+    </div>
+  </div>
+</p-panel>
+
+<p-table [value]="agenda" [paginator]="true" [rows]="5" [showCurrentPageReport]="true"
+  currentPageReportTemplate="Exibindo do primeiro {first} para {last} ao total de {totalRecords} contato."
+  [rowsPerPageOptions]="[5,10,15]">
   <ng-template pTemplate="header">
     <tr>
       <th>Código</th>
       <th>Nome</th>
       <th>Telefone</th>
+      <th class="th-acoes">Ações</th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-ag>
@@ -11,6 +36,11 @@
       <td>{{ag.id}}</td>
       <td>{{ag.nome}}</td>
       <td>{{ag.telefone}}</td>
+      <td class="th-acoes">
+        <p-button (click)="editar(ag)" icon="pi pi-pencil" class="btn-editar" [title]="'Editar o contato ' + ag.nome">
+        </p-button>
+        <p-button (click)="excluir(ag.id)" icon="pi pi-trash" [title]="'Excluir o contato ' + ag.nome"></p-button>
+      </td>
     </tr>
   </ng-template>
 </p-table>
