@@ -13,7 +13,7 @@
       <!-- <input type="text" pInputText [(ngModel)]="contato.telefone"> -->
       <p-inputMask [(ngModel)]="contato.telefone" mask="(99) 99999-9999"></p-inputMask>
     </div>
-    <div class="p-col-12 p-offset-2">
+    <div class="p-col-10 p-offset-2">
       <button type="submit" pButton [label]="operacao == true ? 'Adicionar' : 'Atualizar'"
         (click)="inserirOuAtualizar()"></button>
     </div>
