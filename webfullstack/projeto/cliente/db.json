@@ -1,0 +1,389 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Thiago",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 2,
+      "nome": "Rafael",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 3,
+      "nome": "Ian",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 98215-9832",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 4,
+      "nome": "Carla",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(21) 99415-6687",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 5,
+      "nome": "Rivaldo",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 98989-8989",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 6,
+      "nome": "Agatah",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 7,
+      "nome": "Romildo",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(49) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 8,
+      "nome": "Ryu",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 9,
+      "nome": "Ken Masters",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 10,
+      "nome": "Blanka",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(11) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 11,
+      "nome": "Chun-li",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(64) 99888-8788",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 12,
+      "nome": "Cammy",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(81) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 13,
+      "nome": "Dalshim",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(98) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 14,
+      "nome": "Dee Jay",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(21) 99222-2222",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 15,
+      "nome": "Sagat",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(51) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 16,
+      "nome": "E. Honda",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(54) 99854-6789",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    }
+  ]
+}
