@@ -35,8 +35,8 @@
               <td>{{cliente.email}}</td>
               <td>{{cliente.endereco.cep}}</td>
               <td class="deletar-atualizar">
-                  <p-button routerLink="/cliente/{{cliente.id}}" class="espaco" icon="pi pi-pencil"></p-button>
-                  <p-button (click)="excluir(cliente.id)" icon="pi pi-trash"></p-button>
+                  <p-button routerLink="/cliente/{{cliente.id}}" class="espaco" icon="pi pi-pencil" [title]="'Editar ' + cliente.nome"></p-button>
+                  <p-button (click)="excluir(cliente.id)" icon="pi pi-trash" [title]="'Excluir ' + cliente.nome"></p-button>
               </td>
           </tr>
       </ng-template>
